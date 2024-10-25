@@ -22,4 +22,3 @@ fun batalla(player: Player, monstruo: Monstruo){
     println("La batalla ha culminado")
     monstruo.renacer_monstruo()
 }
-
