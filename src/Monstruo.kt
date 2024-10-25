@@ -41,5 +41,8 @@ class Monstruo {
         }
     }
 
+    fun renacer_monstruo(){
+        this.life =  50f
+    }
 
 }

@@ -40,9 +40,9 @@ class Player(private var name: String, private var life: Float, private var dama
 
     fun curar(){
         if (this.curas >= 0){
-            this.life += 10
+            this.life += 20
             this.curas -= 1
-            println("Has recuperado 10 de vida")
+            println("Has recuperado 20 de vida")
             println("Te quedan ${this.curas}")
         } else {
             println("No te quedan curas")
