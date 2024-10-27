@@ -1,7 +1,8 @@
-class Monstruo {
+open class Monstruo {
     private var name: String = "Slime"
     private var life: Float = 50f
     private var damage: Float = 5f
+    private var drop_exp: Int = 10
 
     fun getName(): String {
         return this.name
@@ -25,6 +26,14 @@ class Monstruo {
 
     fun setDamage(damage: Float){
         this.damage = damage
+    }
+
+    fun getDropExp(): Int{
+        return this.drop_exp
+    }
+
+    fun setDropExp(drop_exp: Int){
+        this.drop_exp = drop_exp
     }
 
     fun atacar(player: Player){
